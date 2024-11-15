@@ -28,7 +28,7 @@ const Call = () => {
         });
     }
     return (
-        <div>
+        <div className='min-h-screen'>
                     <div ref={meetings} />
         </div>
     )
