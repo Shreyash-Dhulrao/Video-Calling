@@ -34,16 +34,16 @@ const Homepage = () => {
       <button onClick={handleSubmit} className='md:w-1/3 w-3/4 px-5 py-3 outline-none border-none  bg-blue-500/75 text-white rounded-md hover:bg-blue-500'>Create</button>
       </div>
       <div className='bg-zinc-800 text-white w-full flex flex-col items-center gap-2 absolute bottom-0 p-3'>
-        <h3 className='font-Noto text-lg tracking-wide'>Developed by <strong>Shreyash Dhulrao</strong></h3>
+        <h3 className='font-Noto md:text-lg text-md tracking-wide'>Developed by <strong>Shreyash Dhulrao</strong></h3>
         <div className='flex gap-3'>
         <Link to="https://www.instagram.com/shreyash.dhulrao?igsh=aGM3NjUzbGVseXN2">
-          <Instagram className="w-8 h-8 rounded-lg"/>
+          <Instagram className="md:w-8 md:h-8 w-6 h-6 md:rounded-lg "/>
         </Link>
         <Link to="https://github.com/Shreyash-Dhulrao">
-          <Github className="w-8 h-8 rounded-lg"/>
+          <Github className="md:w-8 md:h-8 w-6 h-6 md:rounded-lg "/>
         </Link>
         <Link to="https://www.linkedin.com/in/shreyash-dhulrao-47b519228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
-          <Linkedin className="w-8 h-8 rounded-lg"/>
+          <Linkedin className="md:w-8 md:h-8 w-6 h-6 md:rounded-lg "/>
         </Link>
         </div>
       </div>
